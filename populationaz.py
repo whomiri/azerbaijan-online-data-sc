@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 # Specify ChromeDriver path
 chrome_driver_path = "/opt/homebrew/bin/chromedriver"  # Specify your own ChromeDriver path
 
-# Headless mode for Chrome (to run in the background)
+# Headless mode for Chrome (to run in the background.)
 options = Options()
 options.add_argument("--headless")
 
